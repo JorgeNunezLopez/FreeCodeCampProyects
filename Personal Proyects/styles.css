@@ -1,0 +1,25 @@
+*{
+    color:white;
+}
+.barra{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height:100%;
+}
+ul{
+    display:flex;
+    flex-direction: column;  
+    -ms-flex-item-align: left;
+
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+.logo{
+    width: 10%;
+    height:100%;
+    background-color: black;
+}
