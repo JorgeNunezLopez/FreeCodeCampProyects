@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    text-decoration:none;
+  }
+  *{
+    margin:0;
+    padding:0;
+    background-color:rgba(100,100,100,10%);
+  }
+  #header-img{
+    margin:10px;
+    width:540px;
+    height: auto;
+    }
+  #nav-bar{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    top: 0px;
+  }
+  
+  @media (max-width: 200px) {
+    #header-img {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
